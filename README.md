@@ -1,16 +1,67 @@
-# React + Vite
+## Instalación y ejecución
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Requisitos
 
-Currently, two official plugins are available:
+- Node.js
+- npm
+- Git (para clonar el repositorio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Pasos
 
-## React Compiler
+1. Clona el repositorio:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   ```bash
+   git clone https://github.com/GorutoG/catalogo-videojuegos.git
+   ```
 
-## Expanding the ESLint configuration
+2. Entra en la carpeta del proyecto:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   cd catalogo-videojuegos
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abre en tu navegador la dirección local que aparece en la terminal.
+
+## Funcionalidades implementadas
+
+- Catálogo de ocho videojuegos con imágenes, nombres, géneros y años de lanzamiento.
+- Búsqueda de videojuegos por nombre.
+- Filtro por género.
+- Búsqueda y filtro por género simultáneos.
+- Sistema para agregar y quitar videojuegos de favoritos.
+- Contador de favoritos.
+- Opción para mostrar únicamente los videojuegos favoritos.
+- Ventana modal con imagen, nombre, género, año y descripción del videojuego seleccionado.
+- Cierre de la ventana modal sin recargar la página.
+- Interfaz oscura con detalles morados, efectos visuales y animaciones.
+
+## Tecnologías utilizadas
+
+- React
+- JavaScript
+- JSX
+- CSS
+- Vite
+- HTML
+
+## Autor
+
+**Nombre:** [Tu nombre]
+
+**Universidad:** Universidad de la Costa (CUC)
+
+**Programa:** Ingeniería de Sistemas
+
+**Asignatura:** [Nombre de la asignatura]
